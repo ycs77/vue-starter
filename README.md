@@ -1,6 +1,6 @@
 # Lucas Yang's Vue Starter
 
-> Apply this starter: `npx degit ycs77/vue-starter`
+> Apply this starter: `npx degit ycs77/vue-starter my-project`
 
 ## Installation
 
