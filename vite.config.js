@@ -6,7 +6,6 @@ import { HeadlessUiResolver } from 'unplugin-vue-components/resolvers'
 import Icons from 'unplugin-icons/vite'
 import IconsResolver from 'unplugin-icons/resolver'
 import Pages from 'vite-plugin-pages'
-import { HeadlessUiFloatResolver } from '@headlessui-float/vue'
 
 export default defineConfig({
   plugins: [
@@ -18,7 +17,6 @@ export default defineConfig({
     Components({
       resolvers: [
         HeadlessUiResolver(),
-        HeadlessUiFloatResolver(),
         IconsResolver({ prefix: '' }),
       ],
     }),
