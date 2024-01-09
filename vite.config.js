@@ -9,11 +9,7 @@ import Pages from 'vite-plugin-pages'
 
 export default defineConfig({
   plugins: [
-    Vue({
-      script: {
-        defineModel: true,
-      },
-    }),
+    Vue(),
     Components({
       resolvers: [
         HeadlessUiResolver(),
