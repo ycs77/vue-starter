@@ -1,6 +1,6 @@
 # Lucas Yang's Vue Starter
 
-> Start a new project: `npx giget gh:ycs77/vue-starter my-project`
+> Start a new project: `npx giget gh:ycs77/vue-starter#tailwindcss-v3 my-project`
 
 ## Installation
 
