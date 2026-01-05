@@ -23,8 +23,8 @@
     "tailwindcss": "^4.1.0",
     "unplugin-icons": "^22.0.0",
     "unplugin-vue-components": "^30.0.0",
+    "unplugin-vue-router": "^0.19.2",
     "vite": "^7.2.0",
-    "vite-plugin-pages": "^0.33.0",
     "vite-plugin-vue-devtools": "^8.0.0"
   }
 }
