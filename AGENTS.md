@@ -8,7 +8,7 @@
 
 ## Constraints
 
-- Node.js v24
+- Node.js v26
 - JavaScript formatting: 2 spaces, single quotes, no semicolons, trailing commas
 
 ## Commands
