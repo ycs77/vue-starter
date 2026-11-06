@@ -1,16 +1,16 @@
 import { URL, fileURLToPath } from 'node:url'
 import { defineConfig } from 'vite'
-import Vue from '@vitejs/plugin-vue'
-import VueRouter from 'vue-router/vite'
-import TailwindCSS from '@tailwindcss/vite'
-import Icons from 'unplugin-icons/vite'
+import vue from '@vitejs/plugin-vue'
+import vuerouter from 'vue-router/vite'
+import tailwindcss from '@tailwindcss/vite'
+import icons from 'unplugin-icons/vite'
 
 export default defineConfig({
   plugins: [
-    VueRouter(),
-    Vue(),
-    TailwindCSS(),
-    Icons(),
+    vuerouter(),
+    vue(),
+    tailwindcss(),
+    icons(),
   ],
   resolve: {
     alias: {
